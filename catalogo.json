@@ -2,17 +2,15 @@
   "settings": {
     "brand": "DAYAMS",
     "whatsapp": "51984120560",
-    "demo": true,
+    "demo": false,
     "announcement": "NUEVA COLECCIÓN ✦ TU ESTILO, TU ESENCIA ✦ ENVÍOS A TODO EL PERÚ",
     "hero_label": "NUEVA TEMPORADA ✦ TU ESTILO",
     "hero_title": "Tu estilo, tu universo.",
     "hero_subtitle": "Prendas que se sienten como tú. Descubre piezas para cada versión de ti.",
-    "hero_image": "",
     "catalog_subtitle": "Elegidas con amor, listas para encontrar su nuevo hogar.",
     "ticker": "DAYAMS ✦ LOOKS QUE ENAMORAN ✦ TU ESTILO SIN LÍMITES ✦ ",
     "about": "Somos una boutique de moda femenina. Nos encantan las prendas que expresan personalidad y te hacen sentir única.",
     "footer": "Tu boutique favorita, estés donde estés.",
-    "instagram": "",
     "tiktok": "https://www.tiktok.com/@dayams828",
     "facebook": "https://www.facebook.com/share/1NUACqnPA6/",
     "wholesale_enabled": true,
@@ -31,8 +29,7 @@
       "sizes": "S, M, L",
       "colors": "Rosa empolvado, Negro",
       "description": "Una silueta femenina para cada ocasión.",
-      "image": "",
-      "gallery": []
+      "image": "/images/mwimnp9t-d67ay7z5.png"
     },
     {
       "id": "c12886f6-847d-48c3-ae3c-06acc75fc407",
@@ -45,9 +42,7 @@
       "stock": 18,
       "sizes": "S, M, L",
       "colors": "Marfil, Lavanda",
-      "description": "Ligera, suave y fácil de combinar.",
-      "image": "",
-      "gallery": []
+      "description": "Ligera, suave y fácil de combinar."
     },
     {
       "id": "10fceabe-f2b5-4f61-b28f-fb3e4bed54a3",
@@ -60,9 +55,7 @@
       "stock": 9,
       "sizes": "S, M",
       "colors": "Café, Marfil",
-      "description": "Un look completo con personalidad.",
-      "image": "",
-      "gallery": []
+      "description": "Un look completo con personalidad."
     },
     {
       "id": "1057f1a7-64cf-41ee-93a4-6ce8cd4e64fe",
@@ -75,9 +68,7 @@
       "stock": 14,
       "sizes": "26, 28, 30, 32",
       "colors": "Negro, Café",
-      "description": "Elegante y cómodo.",
-      "image": "",
-      "gallery": []
+      "description": "Elegante y cómodo."
     },
     {
       "id": "b9be49d1-5a42-4aa0-a739-b108ebff64fb",
@@ -90,9 +81,7 @@
       "stock": 10,
       "sizes": "S, M, L",
       "colors": "Lavanda, Marfil",
-      "description": "Un diseño delicado para destacar.",
-      "image": "",
-      "gallery": []
+      "description": "Un diseño delicado para destacar."
     },
     {
       "id": "c3605e9c-0133-4588-8b40-c47ca0076ab5",
@@ -105,9 +94,7 @@
       "stock": 16,
       "sizes": "S, M, L",
       "colors": "Rosa empolvado, Marfil",
-      "description": "Un básico especial para tus looks.",
-      "image": "",
-      "gallery": []
+      "description": "Un básico especial para tus looks."
     }
   ],
   "faq": [
@@ -127,6 +114,5 @@
       "question": "¿Puedo apartar una prenda?",
       "answer": "El carrito no reserva prendas automáticamente. La disponibilidad se confirma por WhatsApp."
     }
-  ],
-  "reviews": []
+  ]
 }
