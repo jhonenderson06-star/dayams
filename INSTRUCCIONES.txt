@@ -1,0 +1,29 @@
+DAYAMS — PAQUETE DE SUBIDA FÁCIL A GITHUB
+========================================
+Este paquete tiene 7 archivos sueltos, SIN SUBCARPETAS.
+
+Si todavía estás en la pantalla para subir archivos de GitHub:
+1. Quita de la lista los archivos de la subida anterior pulsando X a la derecha de cada uno.
+2. Extrae este ZIP en Windows (clic derecho > Extraer todo).
+3. Abre la carpeta extraída. Presiona Ctrl+A para seleccionar los SIETE archivos.
+4. Arrastra todos esos archivos juntos a GitHub (o usa choose your files).
+5. Comprueba que ves .nojekyll, .pages.yml, index.html, dayams.css,
+   dayams.js, catalogo.json, INSTRUCCIONES.txt.
+6. Pulsa Commit changes.
+7. En el repositorio abre Settings > Pages > Deploy from a branch > main > /(root) > Save.
+8. Abre el enlace de Pages; el catálogo de demostración cargará desde catalogo.json.
+
+ACTUALIZACIONES POSTERIORES
+En https://app.pagescms.org autoriza el repositorio dayams en GitHub.
+La configuración .pages.yml indica que los productos están en catalogo.json.
+Cuando subas imágenes por Pages CMS, se guardarán en images/ automáticamente;
+ese directorio no necesita existir en la primera subida.
+Modifica datos/fotos desde Pages CMS y guarda. GitHub Pages vuelve a publicar
+el MISMO enlace. No vuelvas a subir HTML cada vez que cambies fotos.
+
+AVISOS
+- No publiques prendas de demostración como si estuvieran a la venta.
+- Actualiza el número WhatsApp y confirma pagos Yape manualmente.
+- Sin base de datos, no hay reserva de stock ni descuento automático por venta.
+- Debes abrir la tienda por su URL publicada, no haciendo doble clic en index.html:
+  las páginas abiertas con file:// no pueden leer catalogo.json correctamente.

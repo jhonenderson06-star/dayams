@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f9edf0">
+  <meta name="description" content="DAYAMS Boutique: prendas femeninas con estilo. Arma tu pedido, coordina por WhatsApp y paga con Yape.">
+  <title>DAYAMS · Boutique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dayams.css">
+  <script src="dayams.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#coleccion">Ir a productos</a>
+  <div id="announcement" class="announcement">DAYAMS ✦ Envíos a todo el Perú</div>
+  <header class="header" id="inicio">
+    <div class="shell navwrap">
+      <a href="#inicio" class="brand" aria-label="DAYAMS, volver al inicio">dayams<span>✳</span></a>
+      <nav class="navlinks" aria-label="Navegación principal">
+        <a href="#coleccion">Colección</a><a href="#nosotras">Nosotras</a><a href="#preguntas">Preguntas frecuentes</a>
+      </nav>
+      <div class="navtools">
+        <a class="social-link" id="navSocial" href="#nosotras" aria-label="Instagram de DAYAMS">↗</a>
+        <button class="navcart" id="cartButton" type="button" aria-label="Abrir mi bolsa de compras">Bolsa <span id="cartBadge" class="cartbadge">0</span></button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow" id="heroLabel">NUEVA TEMPORADA <span>✦</span> TU ESTILO</div>
+          <h1 id="heroTitle">Tu estilo,<br><em>tu universo.</em></h1>
+          <p id="heroSub">Prendas que se sienten como tú. Descubre piezas para cada versión de ti.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#coleccion">Explorar prendas <span>↗</span></a><span class="tiny-note">♡ Hecho para enamorarte de tu look</span></div>
+          <div class="hero-stats"><div><b>01</b><span>Elige tus prendas</span></div><div><b>02</b><span>Envía tu pedido</span></div><div><b>03</b><span>Paga con Yape</span></div></div>
+        </div>
+        <div class="hero-stage" id="heroStage" aria-label="Ilustración decorativa 3D de DAYAMS">
+          <div class="hero-orbit orbit-a"></div><div class="hero-orbit orbit-b"></div><div class="hero-shadow"></div>
+          <div class="hero-cardback"></div><div class="hero-cardfront"><div class="stage-shine"></div><div id="heroPicture" class="hero-picture"><span class="model-outline" aria-hidden="true">✦</span></div><div class="hero-card-caption">DAYAMS <span>studio edit / 2026</span></div></div>
+          <div class="hero-float float-top">✺ <span>new<br>season</span></div><div class="hero-float float-bottom">styled<br>with ♡</div>
+          <div class="hero-star" aria-hidden="true">✧</div>
+        </div>
+      </div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track" id="tickerTrack">DAYAMS ✦ STYLE YOUR STORY ✦ DAYAMS ✦ STYLE YOUR STORY ✦</div></div>
+    <section class="catalog-section" id="coleccion" aria-labelledby="catalogHeading">
+      <div class="shell">
+        <div class="section-top"><div><span class="eyebrow eyebrow-dark">✺ NUESTRA SELECCIÓN</span><h2 class="section-title" id="catalogHeading">Prendas para <em>ti</em>.</h2><p id="catalogDesc" class="lead">Elegidas con amor, listas para encontrar su nuevo hogar.</p></div><div class="section-counter"><span id="productCounter">—</span><small>prendas</small></div></div>
+        <div id="demoWarning" class="notice hidden">⚠ Esta es una tienda de demostración. Sustituye los productos de ejemplo antes de compartirla con compradoras reales.</div>
+        <div id="connectionWarning" class="notice notice-error hidden" role="status"></div>
+        <div class="shop-tools"><div class="filters" id="categoryFilters" aria-label="Filtrar por categoría"></div><div class="sorttools"><label for="productSearch" class="sr-only">Buscar prendas</label><input id="productSearch" type="search" placeholder="⌕ Buscar prenda..." autocomplete="off"><label for="productSort" class="sr-only">Ordenar productos</label><select id="productSort"><option value="featured">Destacados</option><option value="low">Menor precio</option><option value="high">Mayor precio</option><option value="new">Más recientes</option></select></div></div>
+        <div id="loading" class="loading" role="status">Preparando la colección <span>✦</span></div>
+        <div id="productsGrid" class="product-grid" aria-live="polite"></div>
+      </div>
+    </section>
+    <section class="benefits" aria-label="Información de compra"><div class="shell benefits-grid"><div><span class="benefit-icon">♡</span><div><strong>Looks con personalidad</strong><small>Moda a tu manera</small></div></div><div><span class="benefit-icon">✦</span><div><strong>Paga por Yape</strong><small>Confirma tu pago por WhatsApp</small></div></div><div><span class="benefit-icon">↗</span><div><strong>Envíos coordinados</strong><small>Lima y provincias</small></div></div></div></section>
+    <section id="nosotras" class="about-section"><div class="shell about-grid"><div class="about-art"><div class="about-arch"><span>DAYAMS</span><small>It's your moment</small></div><div class="about-seal">BE <br>YOU ✳</div></div><div class="about-content"><span class="eyebrow eyebrow-dark">CONOCE DAYAMS</span><h2 class="section-title">Tu esencia es<br><em>tu mejor look.</em></h2><p id="aboutText">Somos una boutique de moda femenina. Nos encantan las prendas que expresan personalidad y te hacen sentir única.</p><a class="text-link" id="aboutWA" href="#coleccion">Pide tu favorito por WhatsApp ↗</a></div></div></section>
+    <section class="reviews-section" id="opiniones"><div class="shell"><div class="section-top"><div><span class="eyebrow eyebrow-dark">✦ EXPERIENCIAS REALES</span><h2 class="section-title">Lo que dicen <em>ellas</em>.</h2></div></div><div id="reviewsGrid" class="reviews-grid"></div></div></section>
+    <section class="faq-section" id="preguntas"><div class="shell faq-grid"><div><span class="eyebrow eyebrow-dark">¿TIENES DUDAS?</span><h2 class="section-title">Te ayudamos<br><em>a elegir.</em></h2><p class="lead">Y si necesitas algo más, estamos a un mensaje de distancia.</p></div><div id="faqList" class="faq-list"></div></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-grid"><div><div class="brand brand-light">dayams<span>✳</span></div><p id="footerText">Tu boutique favorita, estés donde estés.</p></div><div><b>Explora</b><a href="#coleccion">Colección</a><a href="#nosotras">Nosotras</a><a href="#preguntas">Preguntas frecuentes</a></div><div><b>Conecta</b><div id="socialLinks"></div><a id="footerWA" href="#coleccion">WhatsApp</a></div><div><b>Compra con confianza</b><p>El pago se coordina por WhatsApp y se realiza por Yape tras confirmar disponibilidad y envío.</p></div></div><div class="shell foot-bottom"><span>© <span id="year"></span> DAYAMS Boutique</span><span>Hecho con ♡ en Perú</span></div></footer>
+  <button id="floatingCart" class="floating-cart" type="button" aria-label="Ver bolsa">🛍 Bolsa <b id="floatCount">0</b></button>
+  <div id="modalRoot"></div><div id="toastRoot" class="toast-root" role="status" aria-live="polite"></div>
+</body>
+</html>

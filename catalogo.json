@@ -1,0 +1,132 @@
+{
+  "settings": {
+    "brand": "DAYAMS",
+    "whatsapp": "51984120560",
+    "demo": true,
+    "announcement": "NUEVA COLECCIÓN ✦ TU ESTILO, TU ESENCIA ✦ ENVÍOS A TODO EL PERÚ",
+    "hero_label": "NUEVA TEMPORADA ✦ TU ESTILO",
+    "hero_title": "Tu estilo, tu universo.",
+    "hero_subtitle": "Prendas que se sienten como tú. Descubre piezas para cada versión de ti.",
+    "hero_image": "",
+    "catalog_subtitle": "Elegidas con amor, listas para encontrar su nuevo hogar.",
+    "ticker": "DAYAMS ✦ LOOKS QUE ENAMORAN ✦ TU ESTILO SIN LÍMITES ✦ ",
+    "about": "Somos una boutique de moda femenina. Nos encantan las prendas que expresan personalidad y te hacen sentir única.",
+    "footer": "Tu boutique favorita, estés donde estés.",
+    "instagram": "",
+    "tiktok": "https://www.tiktok.com/@dayams828",
+    "facebook": "https://www.facebook.com/share/1NUACqnPA6/",
+    "wholesale_enabled": true,
+    "wholesale_min": 4
+  },
+  "products": [
+    {
+      "id": "74499fbb-c010-4976-b276-29f9fc110da8",
+      "name": "Vestido Aura",
+      "active": true,
+      "category": "Vestidos",
+      "badge": "Nuevo",
+      "price": 40,
+      "wholesale": 35,
+      "stock": 12,
+      "sizes": "S, M, L",
+      "colors": "Rosa empolvado, Negro",
+      "description": "Una silueta femenina para cada ocasión.",
+      "image": "",
+      "gallery": []
+    },
+    {
+      "id": "c12886f6-847d-48c3-ae3c-06acc75fc407",
+      "name": "Blusa Cielo",
+      "active": true,
+      "category": "Blusas",
+      "badge": "Favorito",
+      "price": 40,
+      "wholesale": 35,
+      "stock": 18,
+      "sizes": "S, M, L",
+      "colors": "Marfil, Lavanda",
+      "description": "Ligera, suave y fácil de combinar.",
+      "image": "",
+      "gallery": []
+    },
+    {
+      "id": "10fceabe-f2b5-4f61-b28f-fb3e4bed54a3",
+      "name": "Conjunto Amelie",
+      "active": true,
+      "category": "Conjuntos",
+      "badge": "Colección",
+      "price": 70,
+      "wholesale": 62,
+      "stock": 9,
+      "sizes": "S, M",
+      "colors": "Café, Marfil",
+      "description": "Un look completo con personalidad.",
+      "image": "",
+      "gallery": []
+    },
+    {
+      "id": "1057f1a7-64cf-41ee-93a4-6ce8cd4e64fe",
+      "name": "Pantalón Luna",
+      "active": true,
+      "category": "Pantalones",
+      "badge": "Top",
+      "price": 55,
+      "wholesale": 48,
+      "stock": 14,
+      "sizes": "26, 28, 30, 32",
+      "colors": "Negro, Café",
+      "description": "Elegante y cómodo.",
+      "image": "",
+      "gallery": []
+    },
+    {
+      "id": "b9be49d1-5a42-4aa0-a739-b108ebff64fb",
+      "name": "Vestido Brisa",
+      "active": true,
+      "category": "Vestidos",
+      "badge": "Nuevo",
+      "price": 40,
+      "wholesale": 35,
+      "stock": 10,
+      "sizes": "S, M, L",
+      "colors": "Lavanda, Marfil",
+      "description": "Un diseño delicado para destacar.",
+      "image": "",
+      "gallery": []
+    },
+    {
+      "id": "c3605e9c-0133-4588-8b40-c47ca0076ab5",
+      "name": "Blusa Mía",
+      "active": true,
+      "category": "Blusas",
+      "badge": "Popular",
+      "price": 40,
+      "wholesale": 35,
+      "stock": 16,
+      "sizes": "S, M, L",
+      "colors": "Rosa empolvado, Marfil",
+      "description": "Un básico especial para tus looks.",
+      "image": "",
+      "gallery": []
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Cómo hago mi pedido?",
+      "answer": "Selecciona tus prendas, tallas y colores. Envíanos tu bolsa por WhatsApp y confirmaremos la disponibilidad."
+    },
+    {
+      "question": "¿Cómo pago con Yape?",
+      "answer": "Después de confirmar tu pedido por WhatsApp, te indicaremos el número o QR de Yape. No pagues antes de que confirmemos el stock y envío."
+    },
+    {
+      "question": "¿Hacen envíos a Lima y provincias?",
+      "answer": "Sí. Coordinamos costo de delivery, agencia y plazo estimado por WhatsApp antes del pago."
+    },
+    {
+      "question": "¿Puedo apartar una prenda?",
+      "answer": "El carrito no reserva prendas automáticamente. La disponibilidad se confirma por WhatsApp."
+    }
+  ],
+  "reviews": []
+}
